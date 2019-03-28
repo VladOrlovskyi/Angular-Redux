@@ -9,30 +9,34 @@
 
 .car-box {
   width: 50%;
+  box-sizing: content-box;
 }
 
 .btn-box {
   width: 50%;
-  text-align: center;
+  position: relative;
+  box-sizing: content-box;
 }
 
 
 .btn {
-  width: 120px;
-  height: 25px;
+  width: 40%;
+  height: 20%;
   margin-left: 5px;
   border: 1px solid black;
   background: skyblue;
+  box-sizing: content-box;
 }
 
 .btn-del {
-  width: 120px;
-  height: 25px;
-  margin-left: 78px;
+  width: 40%;
+  height: 20%;
+  margin-left: 5px;
   margin-top: 20px;
   border: 1px solid black;
   background: skyblue;
   display: block;
+  box-sizing: content-box;
 
 }
 
