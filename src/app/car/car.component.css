@@ -1,0 +1,38 @@
+.list-box {
+  width: 100%;
+  padding: 2% 7%;
+  margin-top: 20px;
+  border: 1px solid black;
+  background: skyblue;
+  display: flex;
+}
+
+.car-box {
+  width: 50%;
+}
+
+.btn-box {
+  width: 50%;
+  text-align: center;
+}
+
+
+.btn {
+  width: 120px;
+  height: 25px;
+  margin-left: 5px;
+  border: 1px solid black;
+  background: skyblue;
+}
+
+.btn-del {
+  width: 120px;
+  height: 25px;
+  margin-left: 78px;
+  margin-top: 20px;
+  border: 1px solid black;
+  background: skyblue;
+  display: block;
+
+}
+

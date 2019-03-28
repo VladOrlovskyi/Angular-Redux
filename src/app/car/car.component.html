@@ -1,0 +1,17 @@
+<div class="list-box">
+
+
+  <div class="car-box">
+    <h2>{{car.name}}</h2>
+    <h3>{{car.model}}</h3>
+  </div>
+
+
+  <div class="btn-box">
+    <button type="button" class="btn" [disabled]="car.disabled" (click)="disabled()">Disabled</button>
+    <button type="button" class="btn" [disabled]="car.enabled" (click)="enabled()">Enabled</button>
+    <button type="button" class="btn-del" (click)="onDelete()" [disabled]="car.disabled">Delete</button>
+  </div>
+
+
+</div>
